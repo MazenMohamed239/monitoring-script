@@ -6,7 +6,7 @@ LOG_FILE="var/log/mazen.log"
 # Add timestamp to the log file at the beginning of the new report
 {
   echo -e "====================================================="
-  echo -e "        SYSTEM REPORT - $(date '+%Y-%m-%d %H:%M:%S')"
+  echo -e "        $(date '+%Y-%m-%d %H:%M:%S')"
   echo -e "====================================================="
   echo ""
 } >> $LOG_FILE
@@ -75,9 +75,4 @@ LOG_FILE="var/log/mazen.log"
   echo ""
 } >> $LOG_FILE
 
-# Add a final separator
-{
-  echo -e "====================================================="
-  echo -e "                   END OF REPORT"
-  echo -e "====================================================="
-} >> $LOG_FILE
+
