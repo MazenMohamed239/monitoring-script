@@ -1,4 +1,5 @@
-System Monitoring Script
+#System Monitoring Script
+
 This is a bash script designed to monitor system resources and log the results to a file. It checks various aspects of your system's health, including:
 
 Disk usage
